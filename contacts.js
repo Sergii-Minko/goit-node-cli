@@ -38,10 +38,3 @@ export const removeContact = async (contactId) => {
   await fs.writeFile(contactsPath, JSON.stringify(contacts, null, 2));
   return result;
 };
-
-// module.exports = {
-//   listContacts,
-//   getContactById,
-//   addContact,
-//   removeContact,
-// };
